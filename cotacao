@@ -3,11 +3,13 @@
     
  <style>
 
-header {
-  display: block;
-  color: blue;
+body { background: #ebd037 no-repeat right top;
 }
 
+header {
+  display: block;
+  color: black;
+}
 
 ul {
   list-style-type: none;
@@ -26,13 +28,16 @@ a {
   padding: 8px;
 }
 
-p {color: blueviolet;
+p {color: black;
    font-size: 20px;
-}
+   border-style: ridge;
+   border-color: blueviolet
+   }
 
  </style>
     
 <body>
+
 
 <ul>
   <li><a href="default.asp">Home</a></li>
@@ -51,7 +56,22 @@ p {color: blueviolet;
 <br> <br>
 BRL: <br>
 USD: <br>
+<br>
+
+<p>Confira a cotação da Dogecoin em 16.04:
+<br> <br>
+BRL: <br>
+USD: <br>
+<br>
 </p>
+
+<p>Confira a cotação da Dogecoin em 17.04:
+  <br> <br>
+BRL: <br>
+USD: <br>
+<br>
+</p>
+
 
 </body>
 </html>
