@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    
+ <style>
+
+header {
+  display: block;
+  color: blue;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  align-items: center;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+}
+
+p {color: blueviolet;
+   font-size: 20px;
+}
+
+ </style>
+    
+<body>
+
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">Notícias</a></li>
+  <li><a href="contact.asp">Cotação</a></li>
+</ul>
+
+<br>
+
+<header>
+<h1> Dogecoin Brasil</h1>
+<h2>O melhor portal da comunidade Dogecoin Brasil na web.</h2>
+</header>
+
+<p> Confira a cotação da Dogecoin em 15.04:
+<br> <br>
+BRL: <br>
+USD: <br>
+</p>
+
+</body>
+</html>
