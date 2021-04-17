@@ -3,75 +3,112 @@
     
  <style>
 
-body { background: #ebd037 no-repeat right top;
+body {background: #ebd037
 }
 
-header {
-  display: block;
-  color: black;
-}
-
-ul {
+.menu ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden; 
-  align-items: center;
-}
-
-li {
-  float: left;
-}
-
-a {
+  background-color:#E0CE63;
+  padding: 10px 10px;
+  width: 50%;
   display: block;
-  padding: 8px;
+  border-style: double;
+  border-color: gray;
 }
 
-p {color: black;
+.menu li {
+  display: inline-block;
+  font: tahoma black;
+  font-size: 20pt;
+  padding: 2px 10px;
+
+}
+
+.cotacoes {color: black;
    font-size: 20px;
    border-style: ridge;
-   border-color: blueviolet
+   border-color: rgb(99, 81, 2)
    }
+
+   
+p {color: black;
+   font-size: 20px;
+}
+
+form {color: black;
+   font-size: 20px;
+}
+
+button {
+  border: none;
+  color: rgb(199, 139, 29);
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.botao-form:hover {
+  color:rgb(99, 29, 2);
+}
 
  </style>
     
 <body>
 
-
+<div class="menu">
 <ul>
   <li><a href="default.asp">Home</a></li>
   <li><a href="news.asp">Notícias</a></li>
   <li><a href="contact.asp">Cotação</a></li>
 </ul>
+</div>
+<br> <br>
 
-<br>
-
-<header>
 <h1> Dogecoin Brasil</h1>
 <h2>O melhor portal da comunidade Dogecoin Brasil na web.</h2>
-</header>
 
-<p> Confira a cotação da Dogecoin em 15.04:
+<h3> Confira as cotações diárias do mês de Abril 2021: </h3>
+
+<p class="cotacoes"> Confira a cotação da Dogecoin em 15.04:
 <br> <br>
 BRL: <br>
 USD: <br>
 <br>
+<div>
 
-<p>Confira a cotação da Dogecoin em 16.04:
+<p class="cotacoes">Confira a cotação da Dogecoin em 16.04:
 <br> <br>
 BRL: <br>
 USD: <br>
 <br>
 </p>
 
-<p>Confira a cotação da Dogecoin em 17.04:
-  <br> <br>
+<p class="cotacoes">Confira a cotação da Dogecoin em 17.04:
+<br> <br>
 BRL: <br>
 USD: <br>
 <br>
 </p>
 
+<p>Quer receber mais informações da Dogecoin por email? <br>
+  Cadastre-se e receba novidades toda semana! </p>
+
+<form>
+<label>Nome:</label>
+<input type="text"></input>
+<label>E-mail:</label>
+<input type="text"></input>
+<button type="button" class="botao-form">Enviar</button>
+</form>
+
+<br>
+<br>
+<br>
 
 </body>
 </html>
