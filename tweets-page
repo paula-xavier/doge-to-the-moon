@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    
+ <style>
+
+body {background: #ebd037
+}
+
+.menu ul {
+  list-style-type: none;
+  background-color:#E0CE63;
+  padding: 10px 10px;
+  width: 50%;
+  display: block;
+  border-style: double;
+  border-color: gray;
+}
+
+.menu li {
+  display: inline-block;
+  font: tahoma black;
+  font-size: 20pt;
+  padding: 2px 10px;
+
+}
+
+.cotacoes {color: black;
+   font-size: 20px;
+   border-style: ridge;
+   border-color: rgb(99, 81, 2)
+   }
+
+   
+p {color: black;
+   font-size: 20px;
+}
+
+form {color: black;
+   font-size: 20px;
+}
+
+button {
+  border: none;
+  color: rgb(199, 139, 29);
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.botao-form:hover {
+  color:rgb(99, 29, 2);
+}
+
+</style>
+    
+<body>
+
+<div class="menu">
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">Notícias</a></li>
+  <li><a href="contact.asp">Cotação</a></li>
+</ul>
+</div>
+<br> <br>
+
+<h1> Dogecoin Brasil</h1>
+<h2>O melhor portal da comunidade Dogecoin Brasil na web.</h2>
+<h3>Confira os melhores Tweets sobre a Dogecoin:</h3>
+
+<a class="twitter-timeline" href="https://twitter.com/paulaisonline/lists/dogecoin-60865?ref_src=twsrc%5Etfw" data-width="600"
+data-height="600" data-tweet-limit="5">A Twitter List by paulaisonline</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Quer receber mais informações da Dogecoin por email? <br>
+  Cadastre-se e receba novidades toda semana! </p>
+
+<form>
+<label>Nome:</label>
+<input type="text"></input>
+<label>E-mail:</label>
+<input type="text"></input>
+<button type="button" class="botao-form">Enviar</button>
+</form>
+
+<br>
+<br>
+<br>
+
+</body>
+</html>
