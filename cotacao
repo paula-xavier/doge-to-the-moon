@@ -62,9 +62,11 @@ button {
 
 <div class="menu">
 <ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">Notícias</a></li>
-  <li><a href="contact.asp">Cotação</a></li>
+  <li><a href="C:\Users\Paula\Documents\Mines\Projetos Pessoais\Site DogeCoin\DogecoinBR-EmConstrucao.html">Home</a></li>
+  <li><a href="C:\Users\Paula\Documents\Mines\Projetos Pessoais\Site DogeCoin\DogecoinBR-EmConstrucao.html">Notícias</a></li>
+  <li><a href="C:\Users\Paula\Documents\Mines\Projetos Pessoais\Site DogeCoin\DogecoinBR-Cotacoes.html">Cotação</a></li>
+  <li><a href="C:\Users\Paula\Documents\Mines\Projetos Pessoais\Site DogeCoin\DogecoinBR-tweets.html">Tweets</a></li>
+
 </ul>
 </div>
 <br> <br>
@@ -100,10 +102,10 @@ USD: <br>
 
 <form>
 <label>Nome:</label>
-<input type="text"></input>
+<input type="text" id="nomeForm"></input>
 <label>E-mail:</label>
 <input type="text"></input>
-<button type="button" class="botao-form">Enviar</button>
+<button type="button" class="botao-form" onclick="agradecimentoText()">Enviar</button>
 </form>
 
 <br>
@@ -112,3 +114,12 @@ USD: <br>
 
 </body>
 </html>
+
+
+<script>
+  function agradecimentoText() {
+    var nomeAlerta = document.getElementById("nomeForm").value;
+  var msgDeAgradecimento = "Inscrição realizada com sucesso, "; 
+  alert(msgDeAgradecimento + nomeAlerta + "!");
+  }
+  </script>
