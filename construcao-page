@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    
+ <style>
+
+body {background: #ebd037
+}
+
+.menu ul {
+  list-style-type: none;
+  background-color:#E0CE63;
+  padding: 10px 10px;
+  width: 50%;
+  display: block;
+  border-style: double;
+  border-color: gray;
+}
+
+.menu li {
+  display: inline-block;
+  font: tahoma black;
+  font-size: 20pt;
+  padding: 2px 10px;
+
+}
+   
+p {color: black;
+   font-size: 20px;
+}
+
+
+button {
+  border: none;
+  color: rgb(199, 139, 29);
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+h2 {font-size: 30px;
+}
+
+</style>
+    
+<body>
+
+<div class="menu">
+<ul>
+  <li><a href="C:\Users\Paula\Documents\Mines\Projetos Pessoais\Site DogeCoin\DogecoinBR-EmConstrucao.html">Home</a></li>
+  <li><a href="C:\Users\Paula\Documents\Mines\Projetos Pessoais\Site DogeCoin\DogecoinBR-EmConstrucao.html">Notícias</a></li>
+  <li><a href="C:\Users\Paula\Documents\Mines\Projetos Pessoais\Site DogeCoin\DogecoinBR-Cotacoes.html">Cotação</a></li>
+  <li><a href="C:\Users\Paula\Documents\Mines\Projetos Pessoais\Site DogeCoin\DogecoinBR-tweets.html">Tweets</a></li>
+</ul>
+</div>
+<br> <br> 
+
+<h1> Dogecoin Brasil</h1> 
+<h2>Página em construção. <br> Em breve você verá mais conteúdos aqui!</h2>
+<img src="https://yata-apix-d024f7f4-4da6-4106-8113-77a555cb2d39.lss.locawebcorp.com.br/78fd9ff01bd04e0c9343a5c99589a79e.gif" id="construcao"> 
+<br> <br> <br> <br> <br>
+
+<p>Quer receber mais informações da Dogecoin por email? <br>
+  Cadastre-se e receba novidades toda semana! </p>
+
+  <form>
+    <label>Nome:</label>
+    <input type="text" id="nomeForm"></input>
+    <label>E-mail:</label>
+    <input type="text"></input>
+    <button type="button" class="botao-form" onclick="agradecimentoText()">Enviar</button>
+    </form>
+    
+    <br>
+    <br>
+    <br>
+    
+    </body>
+    </html>
+    
+    
+    <script>
+      function agradecimentoText() {
+        var nomeAlerta = document.getElementById("nomeForm").value;
+      var msgDeAgradecimento = "Inscrição realizada com sucesso, "; 
+      alert(msgDeAgradecimento + nomeAlerta + "!");
+      }
+      </script>
